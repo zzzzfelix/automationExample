@@ -27,4 +27,8 @@ public class BrowerDriver {
         driver.close();
         driver.quit();
     }
+
+    public static WebDriver getCurrentDriver() {
+        return driver;
+    }
 }
